@@ -1,0 +1,104 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<META name="GENERATOR" content="IBM WebSphere Homepage Builder Version 6.0.2.1 for Windows">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<TITLE>地図のページ</TITLE>
+<SCRIPT language="JavaScript">
+<!--HPB_SCRIPT_ROV_50
+//
+//  Licensed Materials - Property of IBM
+//  11P5743
+//  (C) Copyright IBM Corp. 1998, 2000 All Rights Reserved.
+//
+
+// HpbImgPreload:
+//
+function HpbImgPreload()
+{
+  var appVer=parseInt(navigator.appVersion);
+  var isNC=(document.layers && (appVer >= 4));
+  var isIE=(document.all    && (appVer >= 4));
+  if (isNC || isIE)
+  {
+    if (document.images)
+    {
+      var imgName = HpbImgPreload.arguments[0];
+      var cnt;
+      swImg[imgName] = new Array;
+      for (cnt = 1; cnt < HpbImgPreload.arguments.length; cnt++)
+      {
+        swImg[imgName][HpbImgPreload.arguments[cnt]] = new Image();
+        swImg[imgName][HpbImgPreload.arguments[cnt]].src = HpbImgPreload.arguments[cnt];
+      }
+    }
+  }
+}
+// HpbImgFind:
+//
+function HpbImgFind(doc, imgName)
+{
+  for (var i=0; i < doc.layers.length; i++)
+  {
+    var img = doc.layers[i].document.images[imgName];
+    if (!img) img = HpbImgFind(doc.layers[i], imgName);
+    if (img) return img;
+  }
+  return null;
+}
+// HpbImgSwap:
+//
+function HpbImgSwap(imgName, imgSrc)
+{
+  var appVer=parseInt(navigator.appVersion);
+  var isNC=(document.layers && (appVer >= 4));
+  var isIE=(document.all    && (appVer >= 4));
+  if (isNC || isIE)
+  {
+    if (document.images)
+    {
+      var img = document.images[imgName];
+      if (!img) img = HpbImgFind(document, imgName);
+      if (img) img.src = imgSrc;
+    }
+  }
+}
+var swImg; swImg=new Array;
+//-->
+</SCRIPT><SCRIPT language="JavaScript">
+<!--HPB_SCRIPT_PLD_50
+HpbImgPreload('_HPB_ROLLOVER2', 'chizu.jpg', 'seven11-300.JPG');
+HpbImgPreload('_HPB_ROLLOVER2', 'chizu.jpg', 'tomaturi-300.JPG');
+HpbImgPreload('_HPB_ROLLOVER4', 'logoYjiro.gif', 'logoYjirob.gif');
+HpbImgPreload('_HPB_ROLLOVER2', 'chizu.jpg', 'Yjiro300.JPG');
+HpbImgPreload('_HPB_ROLLOVER2', 'chizu.jpg', 'dourokanban.JPG');
+HpbImgPreload('_HPB_ROLLOVER3', 'kuruma04.GIF', 'kuruma041.GIF');
+HpbImgPreload('_HPB_ROLLOVER1', '7logo2.gif', '7logo21.gif');
+HpbImgPreload('_HPB_ROLLOVER5', 'kanban.JPG', 'kanban1.JPG');
+//-->
+</SCRIPT></HEAD>
+<BODY background="hanabg12.gif">
+<P align="center"><BR>
+<IMG src="pankobo.gif" width="117" height="23" border="0" alt="タイトル（パン香房）"><BR>
+<IMG src="orenjinomori(kage).GIF" width="287" height="51" border="0" alt="タイトル（オレンジの森）"></P>
+<P align="center"><IMG src="a009lin.gif" width="512" height="12" border="0" alt="ライン１"></P>
+<P align="center"><IMG src="chizu.jpg" width="311" height="313" border="2" align="left" alt="地図" name="_HPB_ROLLOVER2"><B><FONT color="#009900">日光街道を宇都宮市内から<BR>
+日光方面に向かって<BR>
+文星大学の先の<BR>
+<A href="#" id="_HPB_ROLLOVER3" onmouseover="HpbImgSwap('_HPB_ROLLOVER3', 'kuruma041.GIF'); HpbImgSwap('_HPB_ROLLOVER2', 'tomaturi-300.JPG');" onmouseout="HpbImgSwap('_HPB_ROLLOVER3', 'kuruma04.GIF'); HpbImgSwap('_HPB_ROLLOVER2', 'chizu.jpg');"><IMG src="kuruma04.GIF" width="42" height="31" border="0" name="_HPB_ROLLOVER3" alt="自動車ﾏｰｸ"></A>　と　<A href="#" id="_HPB_ROLLOVER1" onmouseover="HpbImgSwap('_HPB_ROLLOVER1', '7logo21.gif'); HpbImgSwap('_HPB_ROLLOVER2', 'seven11-300.JPG');" onmouseout="HpbImgSwap('_HPB_ROLLOVER1', '7logo2.gif'); HpbImgSwap('_HPB_ROLLOVER2', 'chizu.jpg');"><IMG src="7logo2.gif" width="41" height="31" border="0" name="_HPB_ROLLOVER1" alt="ｾﾌﾞﾝｲﾚﾌﾞﾝﾏｰｸ"></A><BR>
+のある信号を<BR>
+（文星大学の前の信号ではありません）<BR>
+左折すると<A href="#" id="_HPB_ROLLOVER4" onmouseover="HpbImgSwap('_HPB_ROLLOVER4', 'logoYjirob.gif'); HpbImgSwap('_HPB_ROLLOVER2', 'Yjiro300.JPG');" onmouseout="HpbImgSwap('_HPB_ROLLOVER4', 'logoYjiro.gif'); HpbImgSwap('_HPB_ROLLOVER2', 'chizu.jpg');"><IMG src="logoYjiro.gif" width="71" height="34" border="0" alt="Y字路" name="_HPB_ROLLOVER4"></A>がありますから<BR>
+それを右方向に入ってください<BR>
+そうしたら<BR>
+すぐ左手に写真の建物が目に入ります<BR>
+信号のちょっと手前には<BR>
+看板<A href="#" id="_HPB_ROLLOVER5" onmouseover="HpbImgSwap('_HPB_ROLLOVER5', 'kanban1.JPG'); HpbImgSwap('_HPB_ROLLOVER2', 'dourokanban.JPG');" onmouseout="HpbImgSwap('_HPB_ROLLOVER5', 'kanban.JPG'); HpbImgSwap('_HPB_ROLLOVER2', 'chizu.jpg');"><IMG src="kanban.JPG" width="52" height="36" border="0" name="_HPB_ROLLOVER5" alt="看板"></A>もあります<BR>
+注意して見てね！<BR>
+</FONT><BR>
+<IMG src="gaikan.JPG" width="300" height="199" border="0" alt="建物外観"><BR>
+<BR>
+<A href="donnapan.htm" target="_self"><IMG src="na_back1.gif" width="60" height="59" border="0" hspace="20" alt="バックボタン"></A></B><A href="oshirase.htm"></A></P>
+</BODY>
+</HTML>
